@@ -33,9 +33,9 @@ from numpy import absolute
 from numpy import mean
 from numpy import std
 
-Image.open('mmu_logo.png').convert('RGB').save('mmu_logo.png')
-im = Image.open("mmu_logo.png")
-st.image(im, width=300)
+#Image.open('mmu_logo.png').convert('RGB').save('mmu_logo.png')
+#im = Image.open("mmu_logo.png")
+#st.image(im, width=300)
 
 st.title("DATA MINING ASSIGNMENT")
 st.header("Part (i): Discuss the exploratory data analysis steps conducted")
